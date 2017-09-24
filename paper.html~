@@ -66,6 +66,9 @@
 <span style="font-size:14px"> Yan, Bowei, Purnamrita Sarkar, and Xiuyuan Cheng. <br></span>
 </p>
 
+<p><a href="https://arxiv.org/abs/1705.08530">Statistical Convergence Analysis of Gradient EM on General Gaussian Mixture Models.</a><br>
+<span style="font-size:14px"> Yan, Bowei, Mingzhang Yin, and Purnamrita Sarkar<br></span>
+</p>
 
 
 <p><a href="https://arxiv.org/abs/1703.05264">Smooth Image-on-Scalar Regression for Brain Mapping.</a><br>
@@ -90,10 +93,6 @@
   </header>
 
   <div class="post-content">
-<p><a href="https://arxiv.org/abs/1705.08530">Statistical Convergence Analysis of Gradient EM on General Gaussian Mixture Models.</a><br>
-  <span style="font-size:14px"> Yan, Bowei, Mingzhang Yin, and Purnamrita Sarkar<br>
-  To appear, NIPS 2017</span>
-</p>
 
     <p>
       <a href="http://proceedings.mlr.press/v54/zhong17a/zhong17a.pdf">Fast Classification with Binary Prototypes.</a><br>
