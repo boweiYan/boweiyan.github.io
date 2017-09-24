@@ -55,17 +55,12 @@
 
   <h1 class="page-heading">About me</h1>
   <p>
-    I'm a 4th year PhD student at <a href="http://www.utexas.edu/">the University of Texas at Austin</a>, <a href="https://stat.utexas.edu/">Department of Statistics and Data Sciences</a>. I am advised by <a href="http://www.cs.cmu.edu/~psarkar/">Prof. Purnamrita Sarkar</a>. Before coming to UT, I completed B.S. and M.S. in Peking University working with <a href="http://www.math.pku.edu.cn/teachers/yaoy/">Prof. Yuan Yao</a>.
+    Hi, I'm Bowei Yan, a 3rd year PhD student at <a href="http://www.utexas.edu/">the University of Texas at Austin</a>, <a href="https://stat.utexas.edu/">Department of Statistics and Data Sciences</a>. I am advised by <a href="http://www.cs.cmu.edu/~psarkar/">Prof. Purnamrita Sarkar</a>. Before coming to UT, I completed M.S in Peking University working with <a href="http://www.math.pku.edu.cn/teachers/yaoy/">Prof. Yuan Yao</a>.
 </p>
 <p>
-  I work on statistical machine learning problems, some of my research interest are</p>
-<ul>
-  <li> Inference on networks, esp. Stochastic Block Models </li>
-  <li> Clustering mixture models </li>
-  <li> Semidefinite programming </li>
-  <li> Non-convex optimization </li>
-  <li> Machine learning applications to medical data </li>
-</ul>
+I work on statistical machine learning problems, focusing on community detection for stochastic block models and clustering mixture models. I'm also interested in other applied statistical problems such as brain mapping.
+  </p>
+  
   
 
 
@@ -78,15 +73,23 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">Contact</h2>
+    <h2 class="footer-heading">Contact Information</h2>
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">      
-          <p> Email: <a href="mailto:yanbowei@gmail.com">yanbowei@gmail.com</a></p>
-<p> Office: 
-2317 Speedway, GDC 7.412B, Austin, TX 78703<br>
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Bowei Yan
+            
+            </li>
+            
+            <li><a href="mailto:yanbowei@gmail.com">yanbowei@gmail.com</a></li>
+<p> 
+2317 Speedway, GDC 7.412B<br />
+Austin, TX 78703<br>
 </p>            
-        
+        </ul>
       </div>
 
 
