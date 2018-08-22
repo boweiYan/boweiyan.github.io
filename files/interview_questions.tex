@@ -1,0 +1,57 @@
+\documentclass[11pt]{article}
+\usepackage[parfill]{parskip}
+\usepackage{bm}
+\usepackage{geometry}
+% \geometry{
+% a4paper,
+% total={140mm,227mm},
+% left=35mm,
+% top=35mm,
+% }
+\begin{document}
+\title{Quant Interview Questions}
+\date{\today}
+\author{Bowei Yan\\ Jump Trading}
+\maketitle
+
+\section*{Question 1}
+Given a list of $m$ positive real numbers $\bm{x}=[x_1,\cdots, x_m]$, write a function to check if there exists a $n\times n$ matrix $X$ that satisfies:
+\begin{itemize}
+\item $X$ is symmetric;
+\item $X$ is rank-1;
+\item all numbers in $m$ appear in $X$ once and only once;
+\item all other elements in $X$ are 0.
+\end{itemize}
+Write the algorithm and analyze its complexity.
+\paragraph{Solution:}
+The idea is to use the fact that $X=aa^T$, so one chooses a subset of $\bm{x}$ to put on the diagonal, and solve the off-diagonal, and check if that is a superset of the remainder of $\bm{x}$.
+
+\subsection*{--Extension}
+Can you show your algorithm is optimal?
+\paragraph{Solution:}
+For the simple version there might be a theoretical limit. I don't have the answer yet.
+
+\subsection*{--Harder version 1}
+Given a list of $m$ real numbers $\bm{x}=[x_1,\cdots, x_m]$ ({\bf can be either positive or negative}), write a function to check if there exists a $n\times n$ matrix $X$ that satisfies:
+\begin{itemize}
+\item $X$ is symmetric;
+\item $X$ is rank-1;
+\item all numbers in $m$ appear in $X$ once and only once;
+\item all other elements in $X$ are 0.
+\end{itemize}
+\paragraph{Solution:}
+Off-diagonal solution is not unique, complexity should increase by constant factor.
+
+\subsection*{--Harder version 2}
+Given a list of $m$ positive real numbers $\bm{x}=[x_1,\cdots, x_m]$, write a function to check if there exists a $n\times n$ matrix $X$ that satisfies:
+\begin{itemize}
+\item $X$ is symmetric;
+\item $X$ is rank-1;
+\item all numbers in $m$ appear in $X$ once and only once;
+\item other elements in $X$ can be arbitrarily chosen.
+\end{itemize}
+\paragraph{Solution:}
+I don't have a polynomial time algorithm to this yet, would be interesting to discuss with smart candidates.
+
+
+\end{document}
